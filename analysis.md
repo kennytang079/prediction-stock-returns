@@ -34,4 +34,4 @@ Due to the small magnitude of the t-statistic.
 
 1. Additional Stocks
 2. Alternative Signals
-3. More Advanced Statistical Model
+3. More Advanced Statistical Models
