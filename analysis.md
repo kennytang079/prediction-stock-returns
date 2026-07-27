@@ -35,3 +35,26 @@ Due to the small magnitude of the t-statistic.
 1. Additional Stocks
 2. Alternative Signals
 3. More Advanced Statistical Models
+
+## First Addition: Multi-Stock Analysis
+
+### Objective
+Test whether the MA30 > MA100 moving average signal predicts future returns across multiple stocks.
+
+### Methodology
+- Analyzed 10 large-cap U.S. stocks from 2020–2025.
+- Calculated daily returns, MA30, and MA100 indicators.
+- Created bullish signals when MA30 > MA100.
+- Compared next-day returns between bullish and bearish periods.
+- Used Welch's two-sample t-test to evaluate statistical significance.
+
+### Results
+- No stocks produced statistically significant results (all p-values > 0.05).
+- META had the strongest result (p = 0.169), but it was not statistically significant.
+- Bullish periods outperformed bearish periods for some stocks, but results were inconsistent across companies.
+- Most t-statistics were close to zero, suggesting differences were small relative to daily return volatility.
+
+### Conclusion
+- The MA30/MA100 crossover signal did not demonstrate reliable predictive power across the selected stocks.
+- The results suggest the strategy's observed performance was likely due to normal market randomness rather than a consistent trading edge.
+- Future improvements include backtesting strategy returns, analyzing risk-adjusted performance, and testing additional features.
