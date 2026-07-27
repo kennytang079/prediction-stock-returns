@@ -58,3 +58,12 @@ Test whether the MA30 > MA100 moving average signal predicts future returns acro
 - The MA30/MA100 crossover signal did not demonstrate reliable predictive power across the selected stocks.
 - The results suggest the strategy's observed performance was likely due to normal market randomness rather than a consistent trading edge.
 - Future improvements include backtesting strategy returns, analyzing risk-adjusted performance, and testing additional features.
+
+### Regression Analysis
+
+- Applied linear regression to test whether the MA30/MA100 signal predicts next-day returns.
+- Model: FutureReturn = β₀ + β₁(Signal) + ε
+- The signal coefficient was negative (β = -0.00066), suggesting bullish periods were associated with slightly lower next-day returns.
+- The relationship was not statistically significant (p = 0.449).
+- The model explained almost none of the variation in returns (R² ≈ 0.05%).
+- Results suggest the moving-average signal does not provide meaningful predictive power for short-term returns.
